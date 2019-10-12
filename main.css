@@ -1,0 +1,17 @@
+.box {
+  background-color: #0799d3;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: jump 0.5s ease-in 0.25s infinite alternate-reverse forwards;
+}
+
+@keyframes jump {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 100px, 0);
+    }
+}
+© 2019 GitHub, Inc.
